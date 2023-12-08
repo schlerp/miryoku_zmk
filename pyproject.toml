@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "miryoku-zmk"
+version = "0.1.0"
+description = ""
+authors = ["PattyC <patrickcoffey91@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+west = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
